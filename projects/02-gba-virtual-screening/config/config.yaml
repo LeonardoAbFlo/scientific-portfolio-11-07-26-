@@ -1,0 +1,18 @@
+#config pipeline
+target_chembl_id: CHEMBL2179
+pdb_id: "5LVX"
+n_ligands: 163
+#filters aplied
+keep_types: ["IC50", "Ki", "Kd"]
+keep_relations: ["=", "~"]
+#config gnina
+exhaustiveness: 16
+num_modes: 20
+seed: 0
+# ML
+label: minimizedAffinity    # or CNNaffinity 
+split_seed: 0
+frac_train: 0.8
+frac_val: 0.1
+# paralelization exc
+jobs: 1

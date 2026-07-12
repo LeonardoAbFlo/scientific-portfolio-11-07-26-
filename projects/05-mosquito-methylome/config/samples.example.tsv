@@ -1,0 +1,4 @@
+sample_id	species	barcode	reference_fasta
+F1_83	Culex quinquefasciatus	barcode83	/path/to/F1_83_reoriented.fasta
+F1_84	Psorophora sp.	barcode84	/path/to/F1_84_reoriented.fasta
+

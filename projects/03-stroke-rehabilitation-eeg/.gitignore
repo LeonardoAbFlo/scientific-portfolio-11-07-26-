@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Private or large EEG inputs
+data/raw/*
+!data/raw/.gitkeep
+*.mat
+
+# Generated outputs
+results/*
+!results/.gitkeep
